@@ -18,13 +18,13 @@ public class PlaceableBuilding : MonoBehaviour {
 	}
 
     void OnTriggerEnter(Collider c) {
-    	if (c.tag == "Building") {
+    	if (c.CompareTag("Building")) {
     		colliders.Add(c);
     	}
     }
 
     void OnTriggerExit(Collider c) {
-    	if (c.tag == "Building") {
+    	if (c.CompareTag("Building")) {
     		colliders.Remove(c);
     	}
     }
