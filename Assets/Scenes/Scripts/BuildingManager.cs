@@ -14,7 +14,7 @@ public class BuildingManager : MonoBehaviour {
 
     Rect GetRect(int i)
     {
-    	return new Rect(Screen.width/20,Screen.height/15 + Screen.height/12 * i,100,30);
+    	return new Rect(Screen.width/10,Screen.height/7 + Screen.height/10 * i,300,100);
     }
 
     // Update is called once per frame
@@ -43,8 +43,11 @@ public class BuildingManager : MonoBehaviour {
     }
 
 	void OnGUI() { 
+		GUIStyle customButton = new GUIStyle("button");
+ 		customButton.fontSize = 50;
 		for (int i = 0; i <buildings.Length; i ++) {
-			GUI.Button(GetRect(i), buildings[i].name);
+			GUI.Button(GetRect(i), buildings[i].name,customButton); 
+
 		}
     }
 }
