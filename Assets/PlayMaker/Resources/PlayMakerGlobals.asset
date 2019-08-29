@@ -54,3 +54,5 @@ MonoBehaviour:
   - Create Critter
   - Start 2 Level
   - GetChanceToSpawn
+  - Start 3 Level
+  - Butterfly_ChanceToSpawn
