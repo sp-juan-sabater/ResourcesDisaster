@@ -911,9 +911,6 @@
      <Compile Include="Assets\PlayMaker\Actions\Web\WWWObject.cs" />
      <Compile Include="Assets\PlayMaker\FsmProcessor.cs" />
      <Compile Include="Assets\PlayMaker\UpdateHelper.cs" />
-     <Compile Include="Assets\Scenes\Scripts\BuildingManager.cs" />
-     <Compile Include="Assets\Scenes\Scripts\BuildingPlacement.cs" />
-     <Compile Include="Assets\Scenes\Scripts\PlaceableBuilding.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\PlayMaker\Templates\Readme.txt" />
